@@ -1,0 +1,132 @@
+.footer {
+  /* padding: 4rem 2rem;  include after fixing home page*/
+  z-index: 8;
+  width: 100%;
+  bottom: 0;
+  flex-direction: column;
+  display: flex;
+  /* position: fixed; */
+  /* min-height: 100vh; */
+  color: #fff;
+  padding: 5rem 2rem 3rem 2rem;
+  background-color: #125d67;
+}
+
+.sign-up {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.row h4 {
+  font-size: 12px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Cardo", serif;
+}
+
+#msg {
+  font-size: 12px;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #adbc5b;
+}
+
+.row input {
+  font-size: 8px;
+  width: 35%;
+  border: 2px solid #fff;
+  background: transparent;
+  padding: 8px 10px;
+  margin-right: 10px;
+  outline: none;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.row button {
+  color: #fff;
+  font-size: 8px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  background: #d5d654c7;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.col-sm {
+  display: inherit;
+  font-size: 2rem;
+}
+
+.col-sm-none {
+  display: none;
+}
+
+.row form {
+  margin: 0 0 1rem 1rem;
+}
+
+.col2 {
+  margin-right: 3.5rem;
+}
+.row .col2 i {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.row .col2 i:hover {
+  color: #d5d654c7;
+}
+
+.row2 {
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+@media screen and (max-width: 769px) {
+  .row2 {
+    margin-top: 1rem;
+  }
+
+  .para-info {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .row {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .row2 {
+    margin-top: 1.8rem;
+  }
+
+  .col2 {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .row button {
+    margin-top: 1rem;
+  }
+
+  .row input {
+    font-size: 6px;
+  }
+}
